@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  font-size: 1rem;
+  height: auto;
+  width: auto;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+#home {
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(244, 244, 117);
+}
+
+.logo {
+  width: 3em;
+  height: 5rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1rem;
+}
+
+nav {
+  margin-top: 5px;
+  background-color: rgb(251, 249, 249);
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  font-size: 1.5em;
+  color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+}
+
+.backGround {
+  background-image: url(R.jpg);
+  width: auto;
+  height: 30rem;
+}
+.backGround h1 {
+  font-size: 3rem;
+  color: white;
+  padding-top: 20rem;
+  text-shadow: black 1.5px 1.5px;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.parent div {
+  margin-top: 4rem;
+  width: 15rem;
+  height: 15rem;
+  border: black 0.5px solid;
+  -webkit-border-radius: 10px;
+  -moz-border-radrius: 10px;
+  -ms-border-radrius: 10px;
+  border-radius: 10px;
+  font-size: 0.2em;
+  text-align: center;
+}
+.parent p {
+  margin-top: 1.5rem;
+}
+.parent img {
+  border: black solid 0.5px;
+  margin-top: 1rem;
+  -webkit-border-radius: 2px;
+  -moz-border-radrius: 2px;
+  -ms-border-radrius: 2px;
+  border-radius: 2px;
+}
+.parent h3 {
+  margin-top: 0.5rem;
+}
+
+#OurSpecial {
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#OurSpecial:hover {
+  color: orangered;
+}
+
+.box:hover {
+  box-shadow: 2px 2px 2px orangered inset;
+  transform: scale(1.1);
+  transition: 0.7s ease-out;
+}
+
+.menue {
+  background-color: rgb(244, 244, 117);
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  width: 100vw;
+}
+.menue h1 {
+  font-size: 3rem;
+}
+
+table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+td {
+  border: black solid 1px;
+  margin-top: 1px;
+  padding: 1rem 2rem;
+  border-bottom: black solid 1px;
+}
+td td:hover {
+  background-color: orangered;
+}
+
+footer {
+  text-align: center;
+  font-size: 3rem;
+}
+footer img {
+  margin-top: 5rem;
+}
+
+@media (max-width: 1023px) {
+  .parent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    padding: 0.1rem;
+  }
+  #OurSpecial {
+    font-size: 1rem;
+  }
+  .backGround > h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  nav {
+    font-size: 0.7em;
+    margin-left: 5px;
+  }
+}/*# sourceMappingURL=styles.css.map */
